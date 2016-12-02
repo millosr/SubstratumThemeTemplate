@@ -1,0 +1,4 @@
+<resources>
+    <color name="quantum_panel_text_color">#FF424242</color>
+    <color name="quantum_panel_bg_color">#80F5F5F5</color>
+</resources>

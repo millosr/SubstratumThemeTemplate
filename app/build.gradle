@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
-        applicationId "substratum.theme.template"
+        applicationId "com.github.millosr.substratum"
         minSdkVersion 23
         targetSdkVersion 24
         versionCode 1
@@ -25,9 +25,9 @@ android {
             buildConfigField(BOOLEAN, SUBSTRATE_MODULE, FALSE) // CHANGE FALSE TO TRUE TO ENABLE
         }
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            buildConfigField(BOOLEAN, ANTI_PIRACY, TRUE)
+            buildConfigField(BOOLEAN, ANTI_PIRACY, FALSE)
             buildConfigField(BOOLEAN, SUBSTRATE_MODULE, FALSE) // CHANGE FALSE TO TRUE TO ENABLE
         }
     }

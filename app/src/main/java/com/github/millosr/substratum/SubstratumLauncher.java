@@ -1,4 +1,4 @@
-package substratum.theme.template;
+package com.github.millosr.substratum;
 
 import android.app.Activity;
 import android.content.Context;
