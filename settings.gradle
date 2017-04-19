@@ -1,2 +1,2 @@
-include ':app'
+include ':app', 'Launcher3'
 include ':substrate'
